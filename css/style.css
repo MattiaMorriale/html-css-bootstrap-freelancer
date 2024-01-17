@@ -20,7 +20,7 @@
 
 .hr-light{
     display: inline-block;
-    width: 120px;
+    width: 100px;
 
     opacity: 1;
 
@@ -32,7 +32,7 @@
 
 .hr-dark{
     display: inline-block;
-    width: 120px;
+    width: 100px;
 
     opacity: 1;
 
@@ -49,7 +49,7 @@
 .fa-facebook-f{
     border: 2px solid white;
 
-    padding: 12px 15px;
+    padding: 7px 10px;
 
     border-radius: 25px;
 }
@@ -58,7 +58,7 @@
 .fa-google-plus-g{
     border: 2px solid white;
 
-    padding: 12px 11px;
+    padding: 7px 5px;
 
     border-radius: 25px;
 }
@@ -67,7 +67,7 @@
 .fa-twitter{
     border: 2px solid white;
 
-    padding: 12px 12px;
+    padding: 7px 7px;
 
     border-radius: 25px;
 }
@@ -76,7 +76,7 @@
 .fa-linkedin-in{
     border: 2px solid white;
 
-    padding: 12px 13px;
+    padding: 7px 8px;
 
     border-radius: 25px;
 }
