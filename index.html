@@ -6,33 +6,126 @@
     
     <title>Bootstrap</title>
 
+    <!-- bootstrap -->
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
+    <!-- font awesome -->
+
+    <script src="https://kit.fontawesome.com/1a036a6099.js" crossorigin="anonymous"></script>
+
+    <!-- styile.css -->
+
     <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm my-header" data-bs-theme="dark">
-        <div class="container-fluid w-75">
-          <a class="navbar-brand" href="#">START BOOTSTRAP</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="#">PORTFOLIO</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">ABOUT</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">CONTACT</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    
+    <div class="container-fluid px-0" data-bs-theme="dark">
+        <nav class="navbar navbar-expand-sm my-nav">
+            <div class="container-fluid w-75">
+              <a class="navbar-brand" href="#">START BOOTSTRAP</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">PORTFOLIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CONTACT</a>
+                        </li>
+                    </ul>
+              </div>
+            </div>
+          </nav>
+          <header class="my-header" data-bs-theme="dark">
+                <div class="row justify-content-center mx-0 pt-5">
+                    <div class="col-2">
+                        <img class="img-fluid" src="img/avatar.svg" alt="#">
+                    </div>
+                </div>
+                <div class="row justify-content-center mx-0 mt-3 pb-5">
+                    <div class="col-6 text-center text-white">
+                        <h1 class="fs-1 fw-bold">START BOOTSTRAP</h1>
+                        <div class="d-flex justify-content-center align-items-center gap-3 my-2">
+                            <hr class="hr-light">
+                            <i class="fa-solid fa-star fs-4"></i>
+                            <hr class="hr-light">
+                        </div>
+                        <strong class="fs-6">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</strong>
+                    </div>
+                </div>
+          </header>
+          <main>
+                <div class="row justify-content-center mt-5">
+                    <div class="col-6 text-center text-dark">
+                        <h2>PORTFOLIO</h2>
+                        <div class="d-flex justify-content-center align-items-center gap-3 my-2">
+                            <hr class="hr-dark">
+                            <i class="fa-solid fa-star fs-4"></i>
+                            <hr class="hr-dark">
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center mx-0">
+                    <div class="col-8 w-75">
+                        <div class="row justify-content-center mx-0">
+                            <div class="col-4">
+                                <img class="img-fluid rounded" src="img/cabin.png" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid rounded" src="img/cake.png" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid rounded" src="img/circus.png" alt="">
+                            </div>
+                        </div>
+                        <div class="row justify-content-center mt-4 mb-5 mx-0">
+                            <div class="col-4">
+                                <img class="img-fluid rounded" src="img/game.png" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid rounded" src="img/safe.png" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid rounded" src="img/submarine.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="my-about">
+                    <div class="row justify-content-center align-items-center pt-5">
+                        <div class="col-6 text-center text-white">
+                            <h2>ABOUT</h2>
+                            <div class="d-flex justify-content-center align-items-center gap-3 my-3">
+                                <hr class="hr-light">
+                                <i class="fa-solid fa-star fs-4"></i>
+                                <hr class="hr-light">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center align-items-center pb-4">
+                        <div class="row justify-content-center">
+                            <div class="col-4 text-white">
+                                <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete sorce files including HTML, CSS, and JavaScript as well as optional LESS stylesheet for esey customization.</p>
+                            </div>
+                            <div class="col-4 text-white">
+                                <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your project, this template is the perfect starting point</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row align-items-center justify-content-center pb-5">
+                        <div class="col-2 d-flex justify-content-center">
+                            <button type="button" class="btn btn-outline-light"><i class="fa-solid fa-download"></i> Download</button>
+                        </div>
+                    </div>
+                </div>
+          </main>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
