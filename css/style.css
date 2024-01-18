@@ -10,6 +10,19 @@
     background-color: #1abc9c;
 }
 
+.my-btn{
+    background-color: #1abc9c;
+
+    border-color: #1abc9c;
+}
+
+.my-btn:hover{
+    background-color: #3a546d;
+
+    border-color: #3a546d;
+}
+
+
 .my-footer{
     background-color:#3a546d;
 }
